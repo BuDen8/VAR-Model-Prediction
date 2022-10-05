@@ -23,7 +23,7 @@ import numpy as np
 
 counter = 8
 with ExcelWriter('Rezultati_Proizvodi.xlsx') as writer:
-    for i in range(10,11 ):
+    for i in range(0,counter ):
         file_name = "C:\\Users\\ba331c\\Desktop\\Lazo Phd\\S-Proizvodi.xlsx"
         sheet =  i
         file_info = pd.ExcelFile(file_name)
